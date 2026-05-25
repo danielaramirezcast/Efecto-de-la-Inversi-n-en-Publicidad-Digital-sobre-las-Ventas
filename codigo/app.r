@@ -476,8 +476,6 @@ hojas3 <- list(
 )
 for (nombre in names(hojas3)) { addWorksheet(wb3, nombre); writeData(wb3, nombre, hojas3[[nombre]]) }
 saveWorkbook(wb3, paste0(ruta, "fase3_roi.xlsx"), overwrite = TRUE)
-
-# ============================================================
 # FASE 4 — DASHBOARD SHINY
 # ============================================================
 
